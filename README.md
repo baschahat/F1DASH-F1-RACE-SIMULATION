@@ -18,7 +18,6 @@ This project simulates and visualizes a complete Formula 1 race environment by i
 📺 Watch Full 4K Broadcast Simulation:  
 👉 [https://youtube.com/video-link-here](https://youtu.be/aW4u1AQKxGA?si=eAwlu5RmLDKrLZUJ)
 
----
 
 ## 🎬 Visual Preview
 
@@ -46,7 +45,6 @@ This system reconstructs that pipeline:
 5. Simulates race progress, gaps, and DRS logic  
 6. Renders a 4K broadcast-style animated race
 
----
 
 ## 🚀 Key Features
 
@@ -65,7 +63,6 @@ This system reconstructs that pipeline:
 
 ## 🧠 System Architecture
 
----
 
 ### 1️⃣ Circuit Analysis
 **01_circuit_analysis.py**
@@ -81,9 +78,7 @@ This system reconstructs that pipeline:
 - CalculaSpeed-Class Similarity RankingngCore Concept:t:**  
 Statistical synthesis of track characteristics → theoretical reference circuit.
 
----
-
-2️⃣ Sector Analysis (Telemetry Driven)n)**
+### 2️⃣ Sector Analysis (Telemetry Driven)n)**
 **02_sector_analysis.py**
 
 UFastF1 APIF1 API** to load real telemetry data:
@@ -97,7 +92,7 @@ UFastF1 APIF1 API** to load real telemetry data:
 - Compares speeReference Speed SCore Concept:ncept:**  
 Telemetry → Sector Speed Modelling → Performance comparison.
 
--3️⃣ Track Centerline Extractionaction**
+### 3️⃣ Track Centerline Extractionaction**
 **03_track_analysis.py**
 
 - Loads black & white circuit image
@@ -107,7 +102,9 @@ Telemetry → Sector Speed Modelling → Performance comparison.
   - Skeletonization (skimage.thin)
 - Outputs:
 track centerlineceCore Concept:e Concept:**  
-Computer Vision → Track Geometry Reconstruction4️⃣ Waypoints & Geometry& Geometry**
+Computer Vision → Track Geometry Reconstruction
+
+### 4️⃣ Waypoints & Geometry& Geometry**
 **05_waypoints_analysis.py**
 
 - Converts centerline → coordinate waypoints
@@ -116,7 +113,9 @@ Computer Vision → Track Geometry Reconstruction4️⃣ Waypoints & Geometry& G
   - Normal vectors
   - Sector segmentation
   - CoCore Concept:*Core Concept:**  
-Discrete track geometry for animation & physics map5️⃣ Race Physics & Timingysics & Timing**
+Discrete track geometry for animation & physics map
+
+### 5️⃣ Race Physics & Timingysics & Timing**
 **07_race_time_analysis.py**
 
 - Interpolates race timeline
@@ -128,7 +127,9 @@ Discrete track geometry for animation & physics map5️⃣ Race Physics & Timing
 
 - Distance → Time gap conversion  
 - Lap wrapping  
-- Race completion thr6️⃣ DRS Simulation LogicS Simulation Logic**
+- Race completion thr
+
+### 6️⃣ DRS Simulation LogicS Simulation Logic**
 
 Implements realistic DRS mechanics:
 
@@ -159,8 +160,6 @@ A multi-region broadcast-styleRegion 1 — Live Leaderboardn 1 — Live Leaderbo
 - Smooth bar movement
 - Wins & podium stats
 - Team logos + connectors
-
----
 
 ### Region 4 — Racing Strip
 - Scrolling track illusion

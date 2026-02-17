@@ -1,3 +1,4 @@
+# F1DASH Compressing a full Formula 1 season into a single mathematically modelled race simulation
 # 🏁 Formula 1 Race Simulation & Visual Analytics System
 
 A Python-based motorsport analytics and visualization project integrating mathematical race modeling, FastF1 telemetry analysis, track geometry reconstruction, and broadcast-style rendering.
